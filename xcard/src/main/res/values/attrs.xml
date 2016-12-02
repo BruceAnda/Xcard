@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="lotter">
+        <attr name="lotter_widget" format="dimension" />
+        <attr name="lotter_height" format="dimension" />
+    </declare-styleable>
+
+    <attr name="borderRadius" format="dimension" />
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="borderRadius" />
+        <attr name="type" />
+    </declare-styleable>
+
+    <declare-styleable name="card">
+        <attr name="bottomMarginTop" format="dimension" />
+        <attr name="yOffsetStep" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="xcard">
+        <attr name="name" format="string" />
+        <attr name="channel" format="string" />
+        <attr name="dataSrc" format="string" />
+        <attr name="sort" format="string" />
+        <attr name="acceptCards" format="string" />
+        <attr name="testMode" format="boolean" />
+        <attr name="enablePull" format="boolean" />
+        <attr name="enablePush" format="boolean" />
+        <!--插队的Inc-->
+        <attr name="ignoreInc" format="integer" />
+        <attr name="forceCard" format="string" />
+        <attr name="defaultCard" format="string" />
+        <attr name="errorCard" format="string" />
+        <attr name="incName" format="string" />
+        <!--第一次加载的记录数-->
+        <attr name="loadLimit" format="integer" />
+        <!--pull记录数-->
+        <attr name="pullLimit" format="integer" />
+        <!--push记录数-->
+        <attr name="pushLimit" format="integer" />
+        <!--第一次加载的记录数-->
+        <attr name="autoLoadInterval" format="integer" />
+        <!--pull记录数-->
+        <attr name="autoPullInterval" format="integer" />
+        <!--push自动加载间隔-->
+        <attr name="autoPushInterval" format="integer" />
+        <!--xcard最大记录数-->
+        <attr name="artLimit" format="integer" />
+    </declare-styleable>
+
+
+</resources>
